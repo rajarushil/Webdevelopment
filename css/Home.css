@@ -55,6 +55,9 @@ Header nav a:hover{
     box-shadow: 5px 5px 25px beige;
     transition: box-shadow 0.4s;
 }
+#paragraph{
+    background-color: aqua;
+}
 .intro-text .call-to-action a{
     background-color: #55c18f;   
     color: black;
@@ -64,9 +67,10 @@ Header nav a:hover{
     text-decoration: none;
 }
 /*** intro***/
-.welcome{ 
-color:blue;
-    background-color: red;
+#welcome{ 
+color:white;
+    min-height: 50vh;
+    background-color: #55c18f;
 }
 #welcome h2{
     padding: 15px;
@@ -77,6 +81,9 @@ color:blue;
     padding: 10px;
 }
 
-.services-container1{
-    width: 60%;
+.services-container{
+    max-width: 700px;
+    margin: 50px auto;
 }
+
+
